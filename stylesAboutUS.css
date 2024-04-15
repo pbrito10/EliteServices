@@ -13,12 +13,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0; /* Remove margens padrão do body */
-    height: 100vh; /* Altura total da viewport */
+    min-width: 100vw;
+    min-height: 100vh; 
     background: url('Assets/images/background.jpg') no-repeat;
     background-size: cover;
     background-position: center;
+    font-family: 'Poppins', sans-serif;
+    backdrop-filter: blur(10px); /* Adjust blur intensity as needed */
 }
+
+
+
 
 
 header{
@@ -31,6 +36,7 @@ header{
     justify-content: space-between;
     align-items: center; 
     z-index: 99;
+    
 }
 
 .logo {
@@ -122,8 +128,8 @@ header{
 
 .imagem-container {
     position: absolute;
-    top: 42.5%; /* Posiciona o topo do elemento na metade da altura do seu contêiner pai */
-    left: 70%; /* Posiciona a esquerda do elemento na metade da largura do seu contêiner pai */
+    top: 15%; /* Posiciona o topo do elemento na metade da altura do seu contêiner pai */
+    left: 50%; /* Posiciona a esquerda do elemento na metade da largura do seu contêiner pai */
     transform: translate(-50%, -50%); /* Move o elemento para trás em 50% de sua própria largura e altura, centralizando-o */
 }
 
@@ -134,24 +140,8 @@ header{
 }
 
 .texto-container {
-    position: absolute;
-    top: 35%;
-    right: 52.5%; /* Alinhar à esquerda da imagem */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 36px;
-    font-weight: bold;
     color: black; /* Cor do texto */
     text-shadow: 10px 10px 10px rgba(128, 128, 128, 0.5); /* Adiciona sombra de texto cinza */
 }
-
-
-.p1 {
-  }
-  
-  .p2 {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .p3 {
-    font-family: "Lucida Console", "Courier New", monospace;
-  }
