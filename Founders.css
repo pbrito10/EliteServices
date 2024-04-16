@@ -13,13 +13,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 100vw;
-    min-height: 100vh; 
-    background-color: PowderBlue; 
+    margin: 0; /* Remove margens padrão do body */
+    height: 100vh; /* Altura total da viewport */
+    background: url('Assets/images/background.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    font-family: 'Poppins', sans-serif;
-    backdrop-filter: blur(10px); /* Adjust blur intensity as needed */
 }
 
 
