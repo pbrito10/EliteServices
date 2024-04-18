@@ -8,18 +8,17 @@
     font-family: 'Poppins' , sans-serif;
 }
 
-
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-width: 100vw;
-    min-height: 0vh; 
+    min-height: 100vh; 
     background: url('Assets/images/background.jpg') no-repeat;
     background-size: cover;
     background-position: center;
+    backdrop-filter: blur(10px); 
 }
-
 
 
 header{
@@ -172,3 +171,44 @@ header{
   .p3 {
     font-family: "Lucida Console", "Courier New", monospace;
   }
+
+  .slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+/* Centralizar o carousel */
+/* Centralizar o carousel */
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ajustar o tamanho das imagens */
+.carousel-inner img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Aumentar o tamanho das setas */
+
+

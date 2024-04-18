@@ -15,42 +15,53 @@
         <a href="index.html">Home</a>
       </nav>
     </header>
+    <div id="demo" class="carousel slide carousel-container" data-ride="carousel">
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img class="card-img-top" src="Assets/images/Teacher.png" alt="Card image" style="width:100%">
-        <div class="card-body" style="background-color: rgba(255, 255, 255, 0.5);">
-          <h4 class="card-title">Teste</h4>
-          <p class="card-text">TesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTeste</p>
-          <a href="#" class="btn btn-primary">Ver +</a>
-        </div>
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+    
+     <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Assets/images/Code.jpg" alt="Los Angeles">
+      <div class="carousel-caption">
+        <h3>Programming</h3>
+        <p>We had such a great time in LA!</p>
       </div>
     </div>
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img class="card-img-top" src="Assets/images/Teacher.png" alt="Card image" style="width:100%">
-        <div class="card-body" style="background-color: rgba(255, 255, 255, 0.5);">
-          <h4 class="card-title">Teste</h4>
-          <p class="card-text">TesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTeste</p>
-          <a href="#" class="btn btn-primary">Ver +</a>
-        </div>
+    <div class="carousel-item">
+      <img src="Assets/images/Msuic.jpg" alt="Chicago">
+      <div class="carousel-caption">
+        <h3>Musical Production</h3>
+        <p>Beautiful city with amazing music!</p>
       </div>
     </div>
-    <div class="col-md-4 mb-4">
-      <div class="card">
-        <img class="card-img-top" src="Assets/images/Teacher.png" alt="Card image" style="width:100%">
-        <div class="card-body" style="background-color: rgba(255, 255, 255, 0.5);">
-          <h4 class="card-title">Teste</h4>
-          <p class="card-text">TesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTesteTeste</p>
-          <a href="#" class="btn btn-primary">Ver +</a>
-        </div>
+    <div class="carousel-item">
+      <img src="Assets/images/Video.jpg" alt="New York">
+      <div class="carousel-caption">
+        <h3>Video Production</h3>
+        <p>Experience the hustle and bustle!</p>
       </div>
     </div>
   </div>
 
-</div>
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 </html>
