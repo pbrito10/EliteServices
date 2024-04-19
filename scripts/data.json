@@ -3,60 +3,70 @@
         "numeroPedido": 101,
         "data": "01/01/2022",
         "estado": "Pendente",
-        "prestador": "João Silva"
+        "prestador": "João Silva",
+        "categoria": "Eletricista"
     },
     {
         "numeroPedido": 102,
         "data": "02/01/2022",
         "estado": "Concluído",
-        "prestador": "Maria Souza"
+        "prestador": "Maria Souza",
+        "categoria": "Musica"
     },
     {
         "numeroPedido": 103,
         "data": "03/01/2022",
         "estado": "Pendente",
-        "prestador": "Carlos Ferreira"
+        "prestador": "Carlos Ferreira",
+        "categoria": "Pintura"
     },
     {
         "numeroPedido": 104,
         "data": "04/01/2022",
         "estado": "Concluído",
-        "prestador": "Ana Pereira"
+        "prestador": "Ana Pereira",
+        "categoria": "Editor"
     },
     {
         "numeroPedido": 105,
         "data": "05/01/2022",
         "estado": "Pendente",
-        "prestador": "Pedro Almeida"
+        "prestador": "Pedro Almeida",
+        "categoria": "Escritor"
     },
     {
         "numeroPedido": 106,
         "data": "06/01/2022",
         "estado": "Concluído",
-        "prestador": "Sofia Santos"
+        "prestador": "Sofia Santos",
+        "categoria": "Comediante"
     },
     {
         "numeroPedido": 107,
         "data": "07/01/2022",
         "estado": "Pendente",
-        "prestador": "Miguel Costa"
+        "prestador": "Miguel Costa",
+        "categoria": "Mágico"
     },
     {
         "numeroPedido": 108,
         "data": "08/01/2022",
         "estado": "Concluído",
-        "prestador": "Fernanda Ribeiro"
+        "prestador": "Fernanda Ribeiro",
+        "categoria": "Comediante"
     },
     {
         "numeroPedido": 109,
         "data": "09/01/2022",
         "estado": "Pendente",
-        "prestador": "Ricardo Oliveira"
+        "prestador": "Ricardo Oliveira",
+        "categoria": "Escritor"
     },
     {
         "numeroPedido": 110,
         "data": "10/01/2022",
         "estado": "Concluído",
-        "prestador": "Luisa Martins"
+        "prestador": "Luisa Martins",
+        "categoria": "Eletricista"
     }
 ]
