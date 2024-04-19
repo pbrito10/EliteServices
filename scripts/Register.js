@@ -33,6 +33,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 // Adicionar novo usuário ao array
                 users.push(newUser);
+                saveUsers(users);
+                alert('Registration successful!');
 
                 // Atualizar o arquivo JSON com os novos dados
                 return fetch('/scripts/users.json', {
