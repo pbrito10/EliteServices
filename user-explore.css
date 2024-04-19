@@ -145,13 +145,6 @@ header{
     color: black; /* Cor do texto */
     text-shadow: 10px 10px 10px rgba(128, 128, 128, 0.5); /* Adiciona sombra de texto cinza */
 }
-.container {
-    max-width: 1000px; /* Define a largura máxima */
-    margin-top: 90px;
-    margin: 0 auto; /* Centraliza o container na página */
-    padding: 0 20px; /* Adiciona um espaçamento interno */
-    
-}
 
 
 .p1 {

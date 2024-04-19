@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const username = document.getElementById('username').value;
         const password = document.getElementById('password').value;
 
+
         // Carregar os dados dos usuários do arquivo JSON
         fetch('/scripts/users.json')
             .then(response => response.json())
@@ -15,8 +16,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 if (user) {
                     
-                        window.location.href = 'user-dashboard.html';
-                    }
+                       // Redirecionar para a página de administração
+                        if (user.role === 'admin') {
+                             window.location.href = 'admin-dashboard.html';
+                        } else {
+                            // Redirecionar para a página do usuário
+                            window.location.href = 'user-dashboard.html';}
+                        }
                  else {
                     alert('Nome de usuário ou senha incorretos!');
                 }
